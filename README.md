@@ -84,4 +84,5 @@ See here for info on some of the switch settings for sabnzbd http://wiki.sabnzbd
 
 ## Versions
 
++ **08.02.17:** Add pythonioenconding=utf8 as env.
 + **11.12.16:** Intial Release. 
