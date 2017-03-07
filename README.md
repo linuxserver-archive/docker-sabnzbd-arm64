@@ -32,6 +32,17 @@ docker create --name=sabnzbd \
 lsioarmhf/sabnzbd-aarch64
 ```
 
+## Tags
+
+You can choose ,using a tag, to use the unstable branch.
+Stable is the default and requires no tag
+
+(at times both branches may have the same version, but the stable/latest branch should never contain an alpha/beta/rc version)
+
+Add the tag, if required, to the lsioarmhf/sabnzbd-aarch64 line of the run/create command in the following format:-
+
+`lsioarmhf/sabnzbd-aarch64:unstable`
+
 ## Parameters
 
 `The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
@@ -84,5 +95,6 @@ See here for info on some of the switch settings for sabnzbd http://wiki.sabnzbd
 
 ## Versions
 
++ **07.03.17:** Add multithread par2, use unstable branch for alpha/betas etc..
 + **08.02.17:** Add pythonioenconding=utf8 as env.
 + **11.12.16:** Intial Release. 
